@@ -1,0 +1,66 @@
+@media screen and (max-width: 479px) {
+
+.wrapper{
+    width: 200px;
+    margin: auto;
+}
+
+.header{
+    width: 200px;
+    height: 200px;
+    background-color: #141f40;
+}
+
+.boxs{
+    right: 70px;
+    float: inline-end;
+    position: relative;
+    clear: both;
+}
+
+.top-1{
+    right: 70px;
+    position: relative;
+}
+
+.main-left{
+    width: 200px;
+    height: 100px;
+    background-color: #80bfa8;
+    clear: both;
+}
+
+.main-right{
+    width: 200px;
+    height: 210px;
+    background-color: #8c2727;
+    clear: both;
+}
+
+.box{
+    position: relative;
+    left: 30px;
+    right: 30px;
+}
+.box-a{
+    position: relative;
+    top: 20px;
+    bottom: 5px;
+}
+
+.box-b{
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+}
+
+.box-c{
+    position: relative;
+    top: 40px;
+    bottom: 20px;
+}
+.footer{
+    width: 200px;
+    background-color: #d98d30;
+}
+}
