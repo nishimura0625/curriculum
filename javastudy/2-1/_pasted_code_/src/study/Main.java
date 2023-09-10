@@ -25,12 +25,10 @@ public class Main {
 
         //③ arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
         //   要素が奇数の場合には「nは奇数です。」と出力されます。
- 
-        for (int n = 0; n < arr.length; n++) {
-            if (arr[n] % 2 == 0) {
-            } else {
-                System.out.println(arr[n] + "は奇数");
-            }
+        public static void isOdd(int num) {
+            if(num % 2 != 0) {
+              System.out.println(num + "は奇数です。");
+              }
         }
     }
 
